@@ -1,6 +1,6 @@
-# Warden Server
+# ArcCoven Server
 
-Fastify API server for the Warden governance and visibility layer for AI agent spending. This server provides the REST API and WebSocket connections for the Warden dashboard, serving data from PostgreSQL while maintaining a live connection to the Arc blockchain via chain event indexers.
+Fastify API server for the ArcCoven governance and visibility layer for AI agent spending. This server provides the REST API and WebSocket connections for the Warden dashboard, serving data from PostgreSQL while maintaining a live connection to the Arc blockchain via chain event indexers.
 
 ## 🏗️ Architecture
 
@@ -50,7 +50,7 @@ PORT=4000
 CORS_ORIGIN=http://localhost:3000
 
 # Database
-DATABASE_URL=postgresql://user:password@localhost:5432/warden
+DATABASE_URL=postgresql://user:password@localhost:5432/arccoven
 
 # Arc Blockchain
 ARC_RPC_URL=https://arc-testnet.circle.com
